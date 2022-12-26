@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+      <title>Резюме Артюх Романа</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="padding-left: 40px; padding-right: 40px;">
+      <div class="logo-container">
+        <h1>Артюх Роман Викторович</h1>
+      </div>
+      <hr class="hr-line">
+      <h1 align="center">Основная информация:</h1>
+      <p>Мужчина, 36 лет, родился 7 мая 1986, проживаю в городе Чебоксары с 2015 года.</p>
+
+    <hr class="hr-line">
+    <div>
+      <h1 align="center">Опыт работы:</h1>
+      <div class="timeline">
+        <div class="container left">
+          <div class="contentbox">
+            <h2>Июль 2012 — по настоящее время</h2>
+            <p>АО "ЕЭТП" <a href="https://roseltorg.ru/">roseltorg.ru</a>. Главный координатор Удостоверяющего цента. Выпуск Электронных подписей. 
+            Техническая поддержка клиентов/сотрудников; Тестирование новых вводимых систем/сервисов; Внедрение новых услуг и сервисов в сервис заказов услуг;
+            Разработка ТЗ на совершенствование системы обработки заказов клиентов; Внедрение и разработка CRM систем и средств автоматизации под потребности данной организации.</p>
+          </div>
+        </div>
+      <div class="container right">
+        <div class="contentbox">
+          <h2>Март 2010 — июль 2012</h2>
+          <p>ООО «АльфаСофт». Специалист технической поддержки. Установка, консультирование, Обучение ПО "Контур-Экстерн"
+          (Электронная сдача отчётности в контролирующие органы) КриптоПРО, 1С, ПО по Росалкогольрегулированию, 
+          работа с сертифицированными носителями RuToken, eToken.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="contentbox">
+          <h2>Июль 2009 — сентябрь 2009</h2>
+          <p>ГК Авега. Электромонтажник. Прокладывания электросетей и проводного интернета</p>
+        </div>
+      </div>
+    </div>
+    <hr class="hr-line">
+    <h1 align="center">Мои навыки в языках программирования</h1>
+    <p>С декабря 2021 года начал обучаться на FULLSTACK-python. В настоящее время прошёл 11 месяцев обучения и получил некоторые навыки в языках программирования</p>
+    <p>язык HTML</p>
+    <div class="containerskills">
+      <div class="skills html">50%</div>
+    </div>
+    <p>язык CSS</p>
+    <div class="containerskills2">
+      <div class="skills css">60%</div>
+    </div>
+    <p>язык Python</p>
+    <div class="containerskills">
+      <div class="skills js">75%</div>
+    </div>
+    <p>язык JavaScript</p>
+    <div class="containerskills">
+      <div class="skills php">20%</div>
+    </div>
+    <hr class="hr-line">
+    <h1 align="center">Контакты для связи:</h1>
+    <button type="button" class="collapsible">Телефон</button>
+    <div class="content">
+      <p>+7999123465</p>
+    </div>
+    <button type="button" class="collapsible">Электронная почта</button>
+    <div class="content">
+      <p>test@test.ru</p>
+    </div>
+    <button type="button" class="collapsible">Telegram, WatsApp, Viber</button>
+    <div class="content">
+      <p>+7999123465</p>
+    </div>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+      });
+    }
+    </script>
+  </body>
+</html>
